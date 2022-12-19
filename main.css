@@ -1,0 +1,31 @@
+.topBaClass {
+    background-color: tan;
+} 
+
+@media screen and (orientation: portrait) {
+    .topBarClass {
+        background-color: white;
+        align-self: center;  
+        padding: 3%;
+        padding-right: 5%;
+        border-bottom: 20px outset white;
+        border-bottom-style: solid;
+    }
+    
+    .cercaClass {
+        width: 7%;
+        padding-left: 65%;
+        margin-bottom: 3.5%;
+    }
+
+    .homeImageClass {
+        width: 15%;
+    }
+
+    .menuClass {
+        width: 7%;
+        margin-left: 3%;
+        margin-bottom: 3.5%;
+    }
+}
+
