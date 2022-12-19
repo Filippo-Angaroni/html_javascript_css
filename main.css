@@ -1,6 +1,21 @@
+h3 {
+    display:unset;
+
+}
+
 .topBaClass {
     background-color: tan;
 } 
+
+@media screen and (orientation: landscape) {
+    .topBaClass {
+        background-color: red;
+    }
+
+    .cercaClass {
+        width: 5%;
+    }
+}
 
 @media screen and (orientation: portrait) {
     .topBarClass {
@@ -14,7 +29,7 @@
     
     .cercaClass {
         width: 7%;
-        padding-left: 65%;
+        padding-left: 40%;
         margin-bottom: 3.5%;
     }
 
@@ -25,6 +40,11 @@
     .menuClass {
         width: 7%;
         margin-left: 3%;
+        margin-bottom: 3.5%;
+    }
+
+    .contattiClass {
+        width: 90px;
         margin-bottom: 3.5%;
     }
 }
