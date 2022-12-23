@@ -10,6 +10,12 @@
 </head>
 <body>
 
+    <?php
+    
+        echo "ciao";
+
+    ?>
+
     <div id="topBarId" class="topBarClass">
         
         <img id="image1" class="homeImageClass" src="Foto/Foto1.jpg" onclick="imageClick()">
